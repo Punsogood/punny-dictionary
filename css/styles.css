@@ -1,13 +1,7 @@
-:root {
-  --lighterblue:lightblue;
-  --fontcolor: #2b2b2b;
-  --visitedcolor: #05676e;
-  --selectedcolor:#489c79;
-  --secondarybuttoncolor:#e0b354;
-  --selectbuttoncolor:#2b2b2b;
-  --backgroundcolor: #7954e0;
-  --buttoncolor:#D2691E;
-  --fontfamily: 'Inconsolato', sans-serif;
-  --fontweight: 400;
-
+body {
+  background-color: lightblue;
+  }
+body {
+  font-family: 'Inconsolato', sans-serif;
+  font-weight: 400;
 }
