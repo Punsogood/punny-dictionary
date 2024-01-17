@@ -16,8 +16,13 @@ let pokemonList = [
   },
 ];
 
-for (let pokemonList = 0; pokemonList < array.length; pokemonList++) 
-{
-  const element = array[pokemonList];
-  document.write(pokemonList);
-}
+for (let i=0; i<pokemonList.length; i++)  {
+  document.write(pokemonList[i].name + " (height: " + pokemonList[i].height + ")
+  if (pokemonList[i].height <=1.0) {
+  document.write("<br>");
+  }
+  else {
+    document.write("That\'s a big pokemon!");
+    document.write("<br>");
+  }
+  }
