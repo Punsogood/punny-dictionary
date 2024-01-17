@@ -2,6 +2,9 @@ body {
   background-color: lightblue;
   }
 body {
+  font-style: italic;
+}
+body {
   font-family: 'Inconsolato', sans-serif;
   font-weight: 400;
 }
