@@ -16,17 +16,17 @@ let pokemonList = [
     height: "1.2", 
     types: ["oblivious", "own-tempo", "regenerator"],
   },
-  
+
 ];
 
 for (let i=0; i<pokemonList.length; i++) {
   document.write(pokemonList[i].name + ' (height: ' + pokemonList[i].height + ')')
   if (pokemonList[i].height <=1.1) {
-  document.write('<zb>');
+  document.write('<br>');
   }
   else{
     document.write('That\'s a huge pokemon!');
-    document.write('<zb>');
+    document.write('<br>');
   }
   }
 
