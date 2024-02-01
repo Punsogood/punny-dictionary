@@ -19,14 +19,15 @@ let pokemonList = [
 
 ];
 
-function myLoopFunction(pokemonList) {
-  document.write(pokemonList[i].name + ' (height: ' +pokemonList[i].height +')')
+for (let i=0; i<pokemonList.length; i++) {
+  document.write(pokemonList[i].name + ' (height: ' + pokemonList[i].height + ')')
   if (pokemonList[i].height <=1.1) {
+  document.write('<zb>');
+  document.write('<br>');
+  }
+  else{
+    document.write('That\'s a huge pokemon!');
+    document.write('<zb>');
     document.write('<br>');
-    }
-    else{
-      document.write('That\'s a huge pokemon!');
-      document.write('<br>');
-    }
-}
-pokemonList.myLoopFunction(pokemonList);
+  }
+  }
