@@ -2,32 +2,30 @@ let pokemonList = [
   {
     name: "Tranquill", 
     height: "0.6", 
-    types: ["rivalry", "superluck", "bigpecks"],
+    types: ["rivalry",  "super luck",  "big pecks"],
   },
 
   {
     name: "Butterfree", 
     height: "1.1", 
-    types: ["compoundeyes", "tinted-lens"],
+    types: ["compound eyes",  "tinted-lens"],
   },
 
   {
     name: "Slowpoke", 
     height: "1.2", 
-    types: ["oblivious", "own-tempo", "regenerator"],
+    types: ["oblivious",  "own-tempo",  "regenerator"],
   },
 
 ];
 
-for (let i=0; i<pokemonList.length; i++) {
-  document.write(pokemonList[i].name + ' (height: ' + pokemonList[i].height + ')')
-  if (pokemonList[i].height <=1.1) {
-  document.write('<zb>');
-  document.write('<br>');
-  }
-  else{
-    document.write('That\'s a huge pokemon!');
-    document.write('<zb>');
-    document.write('<br>');
-  }
-  }
+pokemonList.forEach(function(pokemon) {
+  document.write('<br>')
+  document.write(pokemon.name)
+  document.write('<br>')
+  document.write(pokemon.height)
+  document.write('<br>')
+  document.write(pokemon.types);
+  document.write('<br>')
+
+})
