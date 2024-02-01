@@ -29,3 +29,4 @@ function myLoopFunction(pokemonList) {
       document.write('<br>');
     }
 }
+pokemonList.myLoopFunction(pokemonList);
